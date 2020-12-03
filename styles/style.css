@@ -1,0 +1,17 @@
+/*body styling*/
+body {
+    background-color: #ADADAD;
+}
+
+/*Navbar*/
+nav {
+    background-color: #83677b;
+}
+
+.navbar-brand {
+    color: #2e1114;
+}
+
+.nav-link {
+    color: #2e1114;
+}
