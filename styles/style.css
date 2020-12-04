@@ -1,17 +1,25 @@
 /*body styling*/
 body {
-    background-image: url(../Images/BackgroundImage.jpg)
+    background-image: url(../Images/background.jpg)
 }
 
 /*Navbar*/
 nav {
-    background-color: #83677b;
+    background-color: #ab96b2;
 }
 
 .navbar-brand {
-    color: #2e1114;
+    color: #cec2d2;
 }
 
 .nav-link {
-    color: #2e1114;
+    color: #cec2d2;
+}
+
+.nav-link {
+    color: #cec2d2;
+}
+
+.navbar-toggler {
+    color: #cec2d2;
 }
