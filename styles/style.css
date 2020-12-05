@@ -3,3 +3,7 @@ body {
     background-image: url(../Images/background.jpg);
     background-size: 110%; 
 }
+
+img {
+    width: 35%;
+ }
