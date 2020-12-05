@@ -1,25 +1,5 @@
 /*body styling*/
 body {
-    background-image: url(../Images/background.jpg)
-}
-
-/*Navbar*/
-nav {
-    background-color: #ab96b2;
-}
-
-.navbar-brand {
-    color: #cec2d2;
-}
-
-.nav-link {
-    color: #cec2d2;
-}
-
-.nav-link {
-    color: #cec2d2;
-}
-
-.navbar-toggler {
-    color: #cec2d2;
+    background-image: url(../Images/background.jpg);
+    background-size: 110%; 
 }
