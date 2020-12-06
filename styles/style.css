@@ -12,7 +12,7 @@ img {
      text-align: center;
  }
  
-.container-fluid {
+.navbar fixed-bottom {
      color: white;
      font-size: 25px;
      text-align: center;
