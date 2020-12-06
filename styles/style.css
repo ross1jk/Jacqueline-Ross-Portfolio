@@ -4,16 +4,12 @@ body {
     background-size: 110%; 
 }
 
- p {
+.ContactMe {
      text-align: center;
  }
 
 /*Sticy Footer*/
-.navbar fixed-bottom {
-     color: white;
-     font-size: 25px;
-     text-align: center;
- }
+
 
 /*card stylings*/
 .card {
