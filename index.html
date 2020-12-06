@@ -11,16 +11,16 @@
 </head>
 
 <body>
-
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Jacqueline Ross</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">Jacqueline Ross</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Changed div class to nav to specify navigation links-->
+    <nav class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
             <a class="nav-link" href="index.html">About
               <span class="sr-only">(current)</span></a>
           </li>
@@ -30,43 +30,42 @@
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-        </ul>
-      </div>
+      </ul>
     </nav>
+ </nav>
     
-  
-    <div class="container">
+  <!--Changed div container to main, this is the main part of the webpage-->
+  <main class="container"> 
+   <!--changed div class row to section, the about me card is one section within the main page-->
+    <section class="row">
+      <div class="col-9">
+          <!--changed card class div to an article, this card contains information about me and this cand and does stand alone from other content-->
+         <article class="card">
+           <article class="card-body">
+             <!--Header div class row to header for about me, col is a section-->
+             <header class="row">
+               <section class="col-12">
+                 <h1>About Me</h1>
+               </section>
+             </header> 
+             <!--actual writing about me, and section breaks up away from other area? may want to change this tag-->
+             <article class="row">
+               <section class="col-12">
+               <!--About Me Picture-->
+                 <img class="wrapper">
+                   <img src="./Images/AboutMe.JPG" class="float-left mr-3 about-img" alt="Jacqueline Ross">
+                 </img>  
+                <!--Information-->
+                 <p>Pickled plaid lomo, XOXO subway tile farm-to-table irony PBR&B beard man braid kale chips offal street art truffaut fanny pack. Pug PBR&B cred edison bulb, flannel tilde asymmetrical knausgaard ramps schlitz whatever. Narwhal beard enamel pin skateboard leggings food truck pug jianbing meditation roof party activated charcoal flannel. Af hammock next level blog hella man bun meditation vegan cred sustainable cold-pressed shabby chic gastropub aesthetic forage. Banjo deep v photo booth pork belly, leggings neutra tattooed bitters hot chicken pickled austin hashtag kitsch actually.</p>
+                 <p>Hella sustainable wolf +1 chia. Cray vaporware shabby chic mlkshk. Food truck direct trade green juice, offal palo santo skateboard cloud bread taiyaki hashtag chia. Craft beer intelligentsia before they sold out tbh. Actually tbh raclette, tattooed YOLO man bun cold-pressed jianbing fanny pack. Ennui fashion axe literally knausgaard man bun selfies occupy church-key VHS ramps pabst meh art party sartorial.</p>
+               </section>
+             </article>
+           </article>
+         </article>
+       </div>
+    </section>
+ </main>
 
-      <div class="row">
-        <div class="col-9">
-          <!--About Me Card-->
-          <div class="card">
-            <div class="card-body">
-             <!--Header-->
-              <div class="row">
-                <div class="col-12">
-                  <h1>About Me</h1>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                    <!--About Me Picture-->
-                    <div class="wrapper">
-                      <img src="./Images/AboutMe.JPG" class="float-left mr-3 about-img" alt="Jacqueline Ross">
-                    </div>  
-                    <!--Information-->
-                  <p>Pickled plaid lomo, XOXO subway tile farm-to-table irony PBR&B beard man braid kale chips offal street art truffaut fanny pack. Pug PBR&B cred edison bulb, flannel tilde asymmetrical knausgaard ramps schlitz whatever. Narwhal beard enamel pin skateboard leggings food truck pug jianbing meditation roof party activated charcoal flannel. Af hammock next level blog hella man bun meditation vegan cred sustainable cold-pressed shabby chic gastropub aesthetic forage. Banjo deep v photo booth pork belly, leggings neutra tattooed bitters hot chicken pickled austin hashtag kitsch actually.</p>
-                  <p>Hella sustainable wolf +1 chia. Cray vaporware shabby chic mlkshk. Food truck direct trade green juice, offal palo santo skateboard cloud bread taiyaki hashtag chia. Craft beer intelligentsia before they sold out tbh. Actually tbh raclette, tattooed YOLO man bun cold-pressed jianbing fanny pack. Ennui fashion axe literally knausgaard man bun selfies occupy church-key VHS ramps pabst meh art party sartorial.</p>
-                </div>
-             </div>
-          </div>
-      
-        </div>
-      
-      </div>
-    
-
-  <!--FooterContact Info Across site-->
   <!--FooterContact Info Across site-->
  <footer class="navbar fixed-bottom justify-content-center navbar-light">
     <a class="navbar-brand" href="www.linkedin.com/in/jacquelinekross"><i class="fab fa-linkedin-in"></i></a>
