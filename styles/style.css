@@ -23,14 +23,28 @@ body {
     margin-top: 10px;
 }
 
-/*about me*/
-img {
-    width: 35%;
- }
 
- /*Portfolio Images*/
-figure {
-    height: 350px;
-    width: 350px;
-    margin: 10px;
-}
+ /*Portfolio Images and Buttons*/
+.img-wrapper {
+    position: relative;
+   }
+  
+  .img-responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay:before {
+    content: ' ';
+    display: block;
+    height: 50%;
+  }
