@@ -4,21 +4,30 @@ body {
     background-size: 110%; 
 }
 
-img {
-    width: 35%;
- }
-
  h5 {
      text-align: center;
  }
  
+/*Sticy Footer*/
 .navbar fixed-bottom {
      color: white;
      font-size: 25px;
      text-align: center;
  }
 
-figure {
+/*card stylings*/
+.card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*about me*/
+img {
+    width: 35%;
+ }
+
+ /*Portfolio Images*/
+ figure {
     height: 350px;
     width: 350px;
 }
