@@ -4,10 +4,10 @@ body {
     background-size: 110%; 
 }
 
- h5 {
+ p {
      text-align: center;
  }
- 
+
 /*Sticy Footer*/
 .navbar fixed-bottom {
      color: white;
@@ -21,13 +21,20 @@ body {
     margin-bottom: 25px;
 }
 
+.card-header {
+    color: #ab96b2;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
 /*about me*/
 img {
     width: 35%;
  }
 
  /*Portfolio Images*/
- figure {
+figure {
     height: 350px;
     width: 350px;
+    margin: 10px;
 }
