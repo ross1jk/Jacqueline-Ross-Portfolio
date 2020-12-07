@@ -8,8 +8,11 @@ h5 {
      text-align: center;
  }
 
-/*Sticy Footer*/
-
+/*About Me Image*/
+.float-left{
+    width: 30%;
+    margin-top: 20px; 
+}
 
 /*card stylings*/
 .card {
@@ -27,24 +30,24 @@ h5 {
  /*Portfolio Images and Buttons*/
 .img-wrapper {
     position: relative;
-   }
+}
   
-  .img-responsive {
+.img-responsive {
     width: 100%;
     height: auto;
-  }
+}
   
-  .img-overlay {
+.img-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
-  }
+}
   
-  .img-overlay:before {
+.img-overlay:before {
     content: ' ';
     display: block;
     height: 50%;
-  }
+}

@@ -24,8 +24,6 @@ The card header div was changed to be labled as header, as it is the header of t
 
 Each card body div was renamed to be article, as it is the main content of the card.
 
-**footer**
-Will you stay? time will tell
 
 ## index.html 
 
@@ -33,7 +31,7 @@ Will you stay? time will tell
 Within the main section of the webpage, the col is set to 12. Within the card I have the sme styling. this is what worked best for my page and desgin ideas. 
 
 **My picture-on my card**
-I used a wrapper to apply styling to my image. Within my class I set the image to float left so that the text would wrap around it. 
+I used a wrapper to apply styling to my image. Within my class I set the image to float left so that the text would wrap around it. I added css styling as well.
 
 **My Personal Inforamtion-on my card**
 p tags were used each paragraph within the body for the about me. I wrote my about me as If I was talking to the person reading it, for a more personal touch, I prefer that style of writing. I included my educational background, my professional background, why I changed careers, and some hobbies. 
@@ -51,7 +49,7 @@ For each div class form-group, that was changed to section as it is a section of
 **Font Awesome**
 Font Awesome was use to provide imags for my p tag, see below and for my form labels: Your name (person), email address (Email), Talking bubble (Message). I thought they were a nice visual and added some flair. 
 
-**p tag**
+**h5 tag**
 My p tag is a simple statment that spans a col-12, with a kiss heart face. I think this shows a little of my personality. Showing personality is improtant in my opinion, as it allows the reader to connect with the person behind the portfolio. 
 
 ## portfolio.html 
