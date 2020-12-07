@@ -1,9 +1,11 @@
-# Jacqueline-Ross-Portfolio
+# Jacqueline Ross Portfolio
 
 In this portoflio you will find three html documents, each that were designed for mobile-first to ensure that they render well on a variety of devices and screens. These responsive pages were made using Bootstrap CSS Framework. 
 
-# Deployed Applicaiton 
+Since this is a personal protflio, the decsions made were made going off of perosnsal prefrence with accessiblity standards, semantic html, and responsive design in mind. 
 
+# Jacqueline Ross Portfolio - Deployed Applicaiton 
+https://ross1jk.github.io/Jacqueline-Ross-Portfolio/
 
 ## Consistent on Every Page
 **divs**
@@ -20,7 +22,7 @@ On every page a card can be found as well. The card serves as the backdrop to th
 
 The card header div was changed to be labled as header, as it is the header of the card. The background was set to transparent within the html and the font was set to a custom purple shade for personal preferences.  
 
-Each card body div was renamed to be main, as it is the main focus of the card. 
+Each card body div was renamed to be article, as it is the main content of the card.
 
 **footer**
 Will you stay? time will tell
@@ -56,10 +58,10 @@ My p tag is a simple statment that spans a col-12, with a kiss heart face. I thi
 
 **Rows and Columns**
 The main part of the webpage has a col of 9. I chose this because I liked the way it made my images appear. 
-Within the card body, there is one row, so all my images are gropued together. Each image has two div col classes. one for a md screen and one for a small screen. This is so the yare responssive, and when viewed on a mobile device will adust to scroll down your screen one at a time. When the screen is larger than 540px they will appear two at a time: col-md-6. When it is smaller than 540px they will appear one a time col-sm-12. 
+Within the card body, there is one row, so all my images are gropued together. Each image has two div col classes. one for a md screen and one for a small screen. This is so they are responssive, and when viewed on a mobile device will adust to scroll down your screen one at a time. When the screen is larger than 540px they will appear two at a time: col-md-6. When it is smaller than 540px they will appear one a time col-sm-12. 
 
 **Figures/Images and buttons** 
-Each Figure tag represents an image wrapper. Each image wrapper contains an image and a figure caption as an image overlay. The image overlay serves as a link. 
+Each Figure tag represents an image wrapper. Each image wrapper contains an image and a img overlay. The image overlay serves as a link. 
 In the future this will be a picture of my project, with a link to my github repository. The first one is fully fuctional with a link to my first respository created. You can see that the button is active, and the image matches the Code Refactor project. the remaining four images are place holders for hte upcoming projects. I chose ranndom pictures I had of myself so I coudl practie screen capturing an image, and uplaoding it to my repostiory. Each image is responsive. Ovever the image the buttons are disabled, which you can see as they are transparent. 
 
 ## style.css 
