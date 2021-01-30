@@ -35,6 +35,19 @@ h5 {
     margin-right: auto; 
 }
 
+/*contact me card*/
+#contact{
+    width: 750px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/*portfolio card*/
+#portfolio{
+    width: 700px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
  /*Portfolio Images and Buttons*/
 .img-wrapper {
     position: relative;
