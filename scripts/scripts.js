@@ -7,6 +7,6 @@ submitBtn.addEventListener("click", function(event){
         userEmail: document.getElementById("email").value,
         userMessage: document.getElementById("message").value
     }
-    console.log(contactme)
+    localStorage.setItem("contactme", JSON.stringify(contactme)); 
     
 });
