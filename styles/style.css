@@ -7,7 +7,32 @@ body {
 h5 {
      text-align: center;
  }
+/*Nav*/
+nav{
+   background-color: white; 
+}
 
+#name{
+    color: #4682B4; 
+    font-size: 25px; 
+}
+
+/*links*/
+a {
+    color: black; 
+ }
+ a:hover{
+   color: #4682B4; 
+ }
+/*button*/
+#btn{
+    background-color: #4682B4;  
+    color: white;
+}
+#submitBtn{
+    background-color: #4682B4;   
+    color: white; 
+}
 /*About Me Image*/
 .float-left{
     width: 30%;
@@ -22,7 +47,7 @@ h5 {
 }
 
 .card-header {
-    color: #ab96b2;
+    color: #4682B4;
     font-weight: bolder;
     margin-top: 10px;
 }
