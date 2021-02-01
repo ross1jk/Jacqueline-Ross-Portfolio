@@ -2,11 +2,14 @@ let submitBtn = document.getElementById("submitBtn");
 
 submitBtn.addEventListener("click", function(event){
     event.preventDefault();
-    var maillink = "mailto:jacqueline.ross09@gmail.com"
+    let nameInput = document.getElementById("name").value; 
+    let emailInput = document.getElementById("email").value;
+    let message = document.getElementById("message").value; 
+    var maillink = "mailto:jacqueline.ross09@gmail.com?subject=Portfolio Response From:"+emailInput+"&body="+message+" -"+nameInput+""
     let contactme = {
-        userName: document.getElementById("name").value, 
-        userEmail: document.getElementById("email").value,
-        userMessage: document.getElementById("message").value
+        userName: nameInput,
+        userEmail: emailInput,
+        userMessage: message
     }
     localStorage.setItem("contactme", JSON.stringify(contactme)); 
     window.location.href = maillink; 
