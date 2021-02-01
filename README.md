@@ -8,5 +8,12 @@ https://ross1jk.github.io/Jacqueline-Ross-Portfolio/
 # Mockup 
 
 ### About Me
-### Contact Me
+![About Me Mockup](./Images/aboutmedeployed.png)
+
+### Contact Me with generated email example
+![Contact Me Mockup](./Images/contactmedeployed.png)
+
+![Email Generated Mockup](./Images/emailgenerated.png)
+
 ### Portfolio
+![Portfolio Mockup](./Images/portfoliodeployed.png)
