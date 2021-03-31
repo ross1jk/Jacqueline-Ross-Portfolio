@@ -53,11 +53,6 @@ a {
     margin-top: 10px;
 }
 
-#footer{
-    text-align: center;
-    margin-top: 15px; 
-}
-
 /*about me card*/
 
 #about{
@@ -102,4 +97,9 @@ a {
     content: ' ';
     display: block;
     height: 50%;
+}
+
+/*Footer*/
+#footer {
+    margin: auto; 
 }

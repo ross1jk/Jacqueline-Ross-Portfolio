@@ -2,21 +2,24 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacqueline Ross: Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacqueline Ross: Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-   <!--Navbar-->
+  <!--Navbar-->
   <nav class="navbar navbar-expand-lg sticky-top navbar-custom">
     <span class="navbar-brand mb-0 h1" id="name">Jacqueline Ross</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#4682B4; font-size:28px;"></i></span>
     </button>
     <!--Changed div class to nav to specify navigation links-->
@@ -39,46 +42,56 @@
   <!--Header-->
   <!--Changed my container div to main as it is the main part of the webpage. Each row class was then changed from a div to a section within the main container-->
   <main class="container">
-    <section class="row">    
-    
-        <!--Contact Me Form-->
-        <article class="card" id="contact">
-          <section class="container">
-            <!--Header-->
-            <header class="card-header bg-transparent">
-              <section class="row">
-                <div class="col-12">
-                  <h2>Contact Me</h2>
-                </div>
-              </section>
-            </header>
-            <!--Main Form-->
-            <form class="card-body">
-                <section class="form-group">
-                  <label for="name"><i class="far fa-user"></i> Your Name</label>
-                  <input type="text" class="form-control" id="username" placeholder="Your Name Here">
-                </section>
-                <section class="form-group">
-                  <label for="email"><i class="far fa-envelope"></i> Email Address</label>
-                  <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                </section>
-                <section class="form-group">
-                  <label for="message"><i class="far fa-comment-alt"></i> Message</label>
-                  <textarea class="form-control" id="message" rows="3"></textarea>
-                </section>            
-                <button type="submit" class="btn btn-custom" id="submitBtn">Submit</button>
-                <footer class="card-footer bg-transparent" id="footer">
-                  <h6><a href="./Documents/JacquelineRoss-Resume.pdf"><i class="far fa-file"></i>My Resume</a> | <a href="https://github.com/ross1jk"><i class="fab fa-github"></i>GitHub</i></a> | <a href="https://www.linkedin.com/in/jacquelinekross/">Linked<i class="fab fa-linkedin-in"></i></a></h6>
-                </footer>
-            </form>
-          </section> 
-        </article>
+    <section class="row">
+
+      <!--Contact Me Form-->
+      <article class="card" id="contact">
+        <section class="container">
+          <!--Header-->
+          <header class="card-header bg-transparent">
+            <section class="row">
+              <div class="col-12">
+                <h2>Contact Me</h2>
+              </div>
+            </section>
+          </header>
+          <!--Main Form-->
+          <form class="card-body">
+            <section class="form-group">
+              <label for="name"><i class="far fa-user"></i> Your Name</label>
+              <input type="text" class="form-control" id="username" placeholder="Your Name Here">
+            </section>
+            <section class="form-group">
+              <label for="email"><i class="far fa-envelope"></i> Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </section>
+            <section class="form-group">
+              <label for="message"><i class="far fa-comment-alt"></i> Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </section>
+            <button type="submit" class="btn btn-custom" id="submitBtn">Submit</button>
+
+          </form>
+        </section>
+      </article>
 
     </section>
   </main>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!--footer-->
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+   <span id="footer"> <h6> <a href="./Documents/JacquelineRoss-Resume.pdf"><i class="far fa-file"></i>My Resume</a> | <a
+        href="https://github.com/ross1jk"><i class="fab fa-github"></i>GitHub</i></a> | <a
+        href="https://www.linkedin.com/in/jacquelinekross/">Linked<i class="fab fa-linkedin-in"></i></a></h6> </span>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
   <script src="./scripts/scripts.js"></script>
 </body>
+
 </html>
