@@ -4,7 +4,7 @@
 
 ## Description
 
-In this portoflio you will find three html documents, each that were designed for mobile-first to ensure that they render well on a variety of devices and screens. These responsive pages were made using Bootstrap CSS Framework and Javascript.
+In this portoflio you will find three html documents, each were designed mobile-first to ensure that they render well on a variety of devices and screens. These responsive pages were made using Bootstrap CSS Framework and Javascript.
 
 ## Table of Contents
 
